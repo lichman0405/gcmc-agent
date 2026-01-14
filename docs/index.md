@@ -90,8 +90,7 @@ Learn how to use different components:
 Detailed API documentation for developers:
 
 - [GlobalSupervisor](api/global-supervisor.md) - Main coordination layer
-- [Research Agents](api/research-agents.md) - Paper search and extraction
-- [Setup Agents](api/setup-agents.md) - Simulation file generation
+- [Agents](api/agents.md) - All agent implementations
 - [Tools](api/tools.md) - RASPA runner and result parser
 
 ## Evaluation
@@ -99,16 +98,13 @@ Detailed API documentation for developers:
 Reproduction of paper results:
 
 - [Paper Reproduction](evaluation/reproduction.md) - Overall results
-- [Table 1 Evaluation](evaluation/table1.md) - Success and execution rates
-- [Table 2 Evaluation](evaluation/table2.md) - Force field extraction IoU
+- [Functional Gap Analysis](evaluation/functional-gap-analysis.md) - Implementation status
 
 ## Development
 
 Contributing to GCMC-Agent:
 
 - [Contributing Guide](development/contributing.md) - How to contribute
-- [Testing Guide](development/testing.md) - Running and writing tests
-- [Code Style](development/code-style.md) - Coding standards
 
 ## Support
 

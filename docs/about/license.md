@@ -59,7 +59,7 @@ GCMC-Agent uses the following open-source libraries:
 - **Matplotlib** - PSF License
 - **Pydantic** - MIT License
 
-See [requirements.txt](../../requirements.txt) for complete dependency list.
+See `requirements.txt` in the repository root for complete dependency list.
 
 **Note:** While LangGraph is listed in requirements.txt for compatibility, the current implementation uses a custom ReAct agent framework.
 
@@ -103,7 +103,7 @@ Also consider citing the original RASPA papers:
 
 ## Full License Text
 
-The complete license text is available in the [LICENSE](../../LICENSE) file in the repository root.
+The complete license text is available in the `LICENSE` file in the repository root.
 
 ## Contact
 
@@ -112,5 +112,4 @@ For licensing questions, please open an issue on GitHub or contact the maintaine
 ## Related
 
 - [Contributing Guidelines](../development/contributing.md)
-- [Code of Conduct](../../CONTRIBUTING.md)
 - [Changelog](changelog.md)

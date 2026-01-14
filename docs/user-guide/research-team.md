@@ -191,5 +191,4 @@ setup_result = setup_team.run(
 ## See Also
 
 - [Setup Team](setup-team.md) - Using extracted parameters
-- [API Reference](../api/research-agents.md) - Detailed API docs
-- [Examples](../../examples/) - Usage examples
+- [API Reference](../api/agents.md) - Detailed API docs

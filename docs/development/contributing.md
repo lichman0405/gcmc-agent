@@ -2,10 +2,6 @@
 
 Thank you for your interest in contributing to GCMC-Agent!
 
-## Quick Links
-
-For detailed contribution guidelines, please see the main [CONTRIBUTING.md](../../CONTRIBUTING.md) in the repository root.
-
 ## Development Setup
 
 ### 1. Clone Repository
@@ -38,7 +34,7 @@ This installs:
 
 ### 4. Install RASPA
 
-See [Installation Guide](../getting-started/installation.md#raspa-installation).
+See [Installation Guide](../getting-started/installation.md) for RASPA setup instructions.
 
 ## Development Workflow
 
