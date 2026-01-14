@@ -1,0 +1,23 @@
+# TraPPE Force Field - NH3
+
+# TraPPE Ammonia
+# Reference: Wick et al., J. Phys. Chem. B 2000, 104, 8008-8016
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+N_nh3     yes    N   N     0          14.007  -0.9849  0.0           1.0       0.70   0             0            relative    0
+H_nh3     yes    H   H     0          1.008    0.3283  0.0           1.0       0.37   0             0            relative    0
+
+# Force field parameters
+N_nh3  N_nh3  lennard-jones  170.0  3.42
+H_nh3  H_nh3  none
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Charges in |e| (elementary charge)
+# - Rigid 4-site model (pyramidal geometry)
+# - N-H bond length = 1.012 Å
+# - H-N-H angle = 106.68°
+# - Charges: N = -0.9849 |e|, each H = +0.3283 |e| (total = 0)
+# - LJ parameters only on nitrogen
+# - Suitable for gas adsorption and NH3 storage studies

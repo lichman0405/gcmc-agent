@@ -1,0 +1,20 @@
+# TraPPE Force Field - C2H4
+
+# TraPPE Ethylene (United Atom)
+# Reference: Wick et al., J. Phys. Chem. B 2000, 104, 8008-8016
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+CH2_eth   yes    C   C     0          14.027   0.0     0.0           1.0       0.91   0             0            relative    0
+
+# Force field parameters
+CH2_eth  CH2_eth  lennard-jones  85.0  3.675
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - United atom model (CH2 groups as single beads)
+# - Two-site rigid model: CH2=CH2
+# - C=C bond length = 1.33 Å (rigid)
+# - Planar geometry
+# - Non-polar, no partial charges
+# - Important for olefin/paraffin separation

@@ -1,0 +1,20 @@
+# TraPPE Force Field - CO2
+
+# TraPPE CO2 Parameters (Garcia-Sanchez et al. 2009)
+# Reference: J. Phys. Chem. C 2009, 113, 8814-8820
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+C_co2     yes    C   C     0          12.011   0.70    0.0           1.0       0.7    0             0            relative    0
+O_co2     yes    O   O     0          15.999  -0.35    0.0           1.0       0.66   0             0            relative    0
+
+# Force field mixing rules
+# Lorentz-Berthelot mixing rules
+C_co2  C_co2  lennard-jones  27.0   2.80
+O_co2  O_co2  lennard-jones  79.0   3.05
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Charges in |e| (elementary charge)
+# - Rigid linear molecule with C-O bond length = 1.149 Å
+# - O-C-O angle = 180°

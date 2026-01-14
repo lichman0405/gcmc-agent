@@ -1,0 +1,41 @@
+SimulationType                MonteCarlo
+NumberOfCycles                {n_cycles}
+NumberOfInitializationCycles  {n_init_cycles}
+PrintEvery                    {print_every}
+
+Forcefield                    {forcefield_name}
+CutOff                        {cutoff}
+UseChargesFromCIFFile         {use_charges_from_cif}
+
+Framework 0
+FrameworkName                 {structure_name}
+UnitCells                     {unit_cells_a} {unit_cells_b} {unit_cells_c}
+ExternalTemperature           {temperature}
+ExternalPressure              {pressure}
+
+# Component 0 - First adsorbate
+Component 0 MoleculeName              {adsorbate_1}
+            MoleculeDefinition        {molecule_def_1}
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0
+
+# Component 1 - Second adsorbate
+Component 1 MoleculeName              {adsorbate_2}
+            MoleculeDefinition        {molecule_def_2}
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0
+
+# Component 2 - Third adsorbate
+Component 2 MoleculeName              {adsorbate_3}
+            MoleculeDefinition        {molecule_def_3}
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0

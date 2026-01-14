@@ -1,0 +1,20 @@
+# TraPPE Force Field - N2
+
+# TraPPE Nitrogen
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+N_n2      yes    N   N     0          14.007  -0.482   0.0           1.0       0.7    0             0            relative    0
+N_com     no     N   N     0          0.0      0.964   0.0           1.0       0.0    0             0            relative    0
+
+# Force field parameters
+N_n2   N_n2   lennard-jones  36.0   3.31
+N_com  N_com  none
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Three-site model with center of mass (COM)
+# - N-N bond length = 1.10 Å
+# - Charges: N atoms = -0.482 |e|, COM = +0.964 |e|
+# - Total charge is zero

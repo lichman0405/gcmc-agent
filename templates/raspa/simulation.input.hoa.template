@@ -1,0 +1,25 @@
+SimulationType                MonteCarlo
+NumberOfCycles                {n_cycles}
+NumberOfInitializationCycles  {n_init_cycles}
+PrintEvery                    {print_every}
+
+Forcefield                    {forcefield_name}
+CutOff                        {cutoff}
+UseChargesFromCIFFile         {use_charges_from_cif}
+
+Framework 0
+FrameworkName                 {structure_name}
+UnitCells                     {unit_cells_a} {unit_cells_b} {unit_cells_c}
+ExternalTemperature           {temperature}
+
+Component 0 MoleculeName              {adsorbate_name}
+            MoleculeDefinition        {molecule_def}
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0
+
+# Heat of Adsorption specific settings
+ComputeHeatOfAdsorption       yes
+WriteEvery                    {write_every}

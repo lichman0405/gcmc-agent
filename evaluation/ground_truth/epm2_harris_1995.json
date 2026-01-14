@@ -1,0 +1,28 @@
+{
+  "source": "Harris & Yung, J. Phys. Chem. 1995, 99, 12021-12024",
+  "force_field_name": "EPM2",
+  "atoms": [
+    {
+      "atom_type": "C",
+      "element": "C",
+      "mass": 12.011,
+      "charge": 0.6512,
+      "epsilon": 28.129,
+      "epsilon_unit": "K",
+      "sigma": 2.757,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O",
+      "element": "O",
+      "mass": 15.999,
+      "charge": -0.3256,
+      "epsilon": 80.507,
+      "epsilon_unit": "K",
+      "sigma": 3.033,
+      "sigma_unit": "Angstrom"
+    }
+  ],
+  "mixing_rules": "Lorentz-Berthelot",
+  "notes": "EPM2 model for CO2"
+}

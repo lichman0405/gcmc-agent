@@ -1,0 +1,17 @@
+# TraPPE Force Field - Ar
+
+# TraPPE Argon (United Atom)
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+Ar        yes    Ar  Ar    0          39.948   0.0     0.0           1.0       1.88   0             0            relative    0
+
+# Force field parameters
+Ar  Ar  lennard-jones  119.8  3.405
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Single-site spherical model
+# - Non-polar, no partial charges
+# - Commonly used as reference gas for pore volume measurements

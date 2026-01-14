@@ -1,0 +1,17 @@
+# TraPPE Force Field - Xe
+
+# TraPPE Xenon (United Atom)
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+Xe        yes    Xe  Xe    0          131.293  0.0     0.0           1.0       2.16   0             0            relative    0
+
+# Force field parameters
+Xe  Xe  lennard-jones  227.1  3.964
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Single-site spherical model
+# - Non-polar, no partial charges
+# - Largest among commonly studied noble gases

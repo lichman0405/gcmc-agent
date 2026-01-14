@@ -1,0 +1,16 @@
+# TraPPE Force Field - CH4
+
+# TraPPE Methane (United Atom)
+# Reference: J. Phys. Chem. B 1998, 102, 2569-2577
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+CH4       yes    C   C     0          16.043   0.0     0.0           1.0       1.9    0             0            relative    0
+
+# Force field parameters
+CH4  CH4  lennard-jones  148.0  3.73
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - United atom model (entire CH4 as single bead)
+# - Non-polar, no partial charges

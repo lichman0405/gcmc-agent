@@ -1,0 +1,18 @@
+# TraPPE Force Field - He
+
+# Helium (Standard LJ parameters)
+# Reference: Hirschfelder et al., Molecular Theory of Gases and Liquids, 1954
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+He        yes    He  He    0          4.003    0.0     0.0           1.0       1.40   0             0            relative    0
+
+# Force field parameters
+He  He  lennard-jones  10.22  2.556
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Single-site spherical model
+# - Non-polar, no partial charges
+# - Used for helium void volume measurements in adsorption studies
+# - Smallest kinetic diameter among noble gases

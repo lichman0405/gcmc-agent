@@ -1,0 +1,4 @@
+#number of pseudo atoms
+{n_atoms}
+#type      print   as    chem  oxidation   mass        charge   polarization B-factor radii  connectivity anisotropic anisotropic-type   tinker-type
+{atoms}

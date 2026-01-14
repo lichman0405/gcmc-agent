@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+wheels/
+*.whl
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vscode-test/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+env/
+.python-version
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+run_*/
+
+# LLM call logs (can be large)
+*.jsonl
+
+# RASPA simulation outputs
+Movies/
+Output/
+Restart/
+VTK/
+simulation_output/
+workspace/
+
+# Simulation runs (generated outputs)
+runs/
+
+# Documentation builds
+site/
+docs/_build/
+.mkdocs_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+*.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+
+# Examples output
+examples/output/
+examples/workspace/
+examples/logs/
+examples/true_end_to_end/
+
+# API keys (never commit)
+.env.local
+.env.*.local
+secrets.yaml
+secrets.json
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+*.cif
+
+# Keep docs PDF (paper reference) and CIF structures
+!docs/*.pdf
+!cifs/*.cif

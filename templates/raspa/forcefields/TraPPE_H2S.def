@@ -1,0 +1,23 @@
+# TraPPE Force Field - H2S
+
+# TraPPE Hydrogen Sulfide
+# Reference: Kamath & Potoff, J. Phys. Chem. B 2006, 110, 1349-1353
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+S_h2s     yes    S   S     0          32.065  -0.29    0.0           1.0       1.04   0             0            relative    0
+H_h2s     yes    H   H     0          1.008    0.145   0.0           1.0       0.37   0             0            relative    0
+
+# Force field parameters
+S_h2s  S_h2s  lennard-jones  250.0  3.72
+H_h2s  H_h2s  none
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Charges in |e| (elementary charge)
+# - Rigid 3-site bent model
+# - S-H bond length = 1.336 Å
+# - H-S-H angle = 92.1°
+# - Charges: S = -0.29 |e|, each H = +0.145 |e| (total = 0)
+# - LJ parameters only on sulfur
+# - Important for sour gas treatment and acid gas removal

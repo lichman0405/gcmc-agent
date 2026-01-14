@@ -1,0 +1,23 @@
+# TraPPE Force Field - H2
+
+# TraPPE Hydrogen (Buch model)
+# Reference: Buch, V. J. Chem. Phys. 1994, 100, 7610-7629
+# Also used in: Darkrim & Levesque, J. Chem. Phys. 1998, 109, 4981-4984
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+H_h2      yes    H   H     0          1.008    0.468   0.0           1.0       0.37   0             0            relative    0
+H_com     no     H   H     0          0.0     -0.936   0.0           1.0       0.0    0             0            relative    0
+
+# Force field parameters
+H_h2   H_h2   lennard-jones  36.7   2.958
+H_com  H_com  none
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Three-site model: two H atoms + center of mass (COM)
+# - H-H bond length = 0.74 Å
+# - Charges: H atoms = +0.468 |e|, COM = -0.936 |e| (total = 0)
+# - Total molecular mass = 2.016 amu
+# - Non-polar in practice (small quadrupole)
+# - Alternative: Simple LJ single-site model also exists (epsilon=34.2 K, sigma=2.96 Å)

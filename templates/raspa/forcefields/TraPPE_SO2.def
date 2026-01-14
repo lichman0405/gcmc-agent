@@ -1,0 +1,22 @@
+# TraPPE Force Field - SO2
+
+# TraPPE Sulfur Dioxide
+# Reference: Kamath et al., J. Phys. Chem. B 2004, 108, 14130-14136
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+S_so2     yes    S   S     0          32.065   0.47    0.0           1.0       1.04   0             0            relative    0
+O_so2     yes    O   O     0          15.999  -0.235   0.0           1.0       0.66   0             0            relative    0
+
+# Force field parameters
+S_so2  S_so2  lennard-jones  173.0  3.39
+O_so2  O_so2  lennard-jones   85.0  3.05
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Charges in |e| (elementary charge)
+# - Rigid 3-site bent model
+# - S-O bond length = 1.432 Å
+# - O-S-O angle = 119.5°
+# - Charges: S = +0.47 |e|, each O = -0.235 |e| (total = 0)
+# - Important for acid gas capture and separation studies

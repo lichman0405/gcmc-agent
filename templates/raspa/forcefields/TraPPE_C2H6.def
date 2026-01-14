@@ -1,0 +1,19 @@
+# TraPPE Force Field - C2H6
+
+# TraPPE Ethane (United Atom)
+# Reference: Martin & Siepmann, J. Phys. Chem. B 1998, 102, 2569-2577
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+CH3_eth   yes    C   C     0          15.035   0.0     0.0           1.0       0.97   0             0            relative    0
+
+# Force field parameters
+CH3_eth  CH3_eth  lennard-jones  98.0  3.75
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - United atom model (CH3 groups as single beads)
+# - Two-site model: CH3-CH3
+# - C-C bond length = 1.540 Å (flexible)
+# - Non-polar, no partial charges
+# - Good for natural gas and LPG adsorption studies

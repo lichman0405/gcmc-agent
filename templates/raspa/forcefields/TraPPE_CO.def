@@ -1,0 +1,19 @@
+# TraPPE Force Field - CO
+
+# TraPPE Carbon Monoxide
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+C_co      yes    C   C     0          12.011  -0.02    0.0           1.0       0.7    0             0            relative    0
+O_co      yes    O   O     0          15.999   0.02    0.0           1.0       0.66   0             0            relative    0
+
+# Force field parameters
+C_co  C_co  lennard-jones  27.0  3.05
+O_co  O_co  lennard-jones  79.0  3.02
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Two-site model
+# - C-O bond length = 1.128 Å
+# - Small partial charges for slight polarity

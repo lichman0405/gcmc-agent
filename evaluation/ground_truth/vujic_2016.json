@@ -1,0 +1,58 @@
+{
+  "source": "Vujić & Lyubartsev, Modelling Simul. Mater. Sci. Eng. 2016, 24, 045002",
+  "force_field_name": "Vujić-Lyubartsev",
+  "atoms": [
+    {
+      "atom_type": "C_co2",
+      "element": "C",
+      "mass": 12.011,
+      "charge": 0.6512,
+      "epsilon": 28.129,
+      "epsilon_unit": "K",
+      "sigma": 2.757,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_co2",
+      "element": "O",
+      "mass": 15.999,
+      "charge": -0.3256,
+      "epsilon": 80.507,
+      "epsilon_unit": "K",
+      "sigma": 3.033,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "N_n2",
+      "element": "N",
+      "mass": 14.007,
+      "charge": -0.4050,
+      "epsilon": 38.298,
+      "epsilon_unit": "K",
+      "sigma": 3.310,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_o2",
+      "element": "O",
+      "mass": 15.999,
+      "charge": -0.1130,
+      "epsilon": 49.0,
+      "epsilon_unit": "K",
+      "sigma": 3.020,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "Ar",
+      "element": "Ar",
+      "mass": 39.948,
+      "charge": 0.0,
+      "epsilon": 124.07,
+      "epsilon_unit": "K",
+      "sigma": 3.358,
+      "sigma_unit": "Angstrom"
+    }
+  ],
+  "mixing_rules": "Lorentz-Berthelot",
+  "notes": "Force field for CO2, N2, O2, and Ar in zeolites"
+}

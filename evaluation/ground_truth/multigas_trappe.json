@@ -1,0 +1,58 @@
+{
+  "source": "TraPPE Force Field, Multiple sources",
+  "force_field_name": "TraPPE",
+  "atoms": [
+    {
+      "atom_type": "CH4",
+      "element": "C",
+      "mass": 16.043,
+      "charge": 0.0,
+      "epsilon": 148.0,
+      "epsilon_unit": "K",
+      "sigma": 3.73,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "C_co2",
+      "element": "C",
+      "mass": 12.011,
+      "charge": 0.70,
+      "epsilon": 27.0,
+      "epsilon_unit": "K",
+      "sigma": 2.80,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_co2",
+      "element": "O",
+      "mass": 15.999,
+      "charge": -0.35,
+      "epsilon": 79.0,
+      "epsilon_unit": "K",
+      "sigma": 3.05,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "N_n2",
+      "element": "N",
+      "mass": 14.007,
+      "charge": -0.482,
+      "epsilon": 36.0,
+      "epsilon_unit": "K",
+      "sigma": 3.31,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_o2",
+      "element": "O",
+      "mass": 15.999,
+      "charge": 0.0,
+      "epsilon": 49.0,
+      "epsilon_unit": "K",
+      "sigma": 3.02,
+      "sigma_unit": "Angstrom"
+    }
+  ],
+  "mixing_rules": "Lorentz-Berthelot",
+  "notes": "Multi-gas TraPPE force field"
+}

@@ -1,0 +1,10 @@
+# general rule for shifted vs truncated
+shifted
+# general rule tailcorrections
+no
+# number of defined interactions
+{n_interactions}
+# type interaction, parameters. 
+{interactions}
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot

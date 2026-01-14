@@ -1,0 +1,17 @@
+# TraPPE Force Field - Kr
+
+# TraPPE Krypton (United Atom)
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+Kr        yes    Kr  Kr    0          83.798   0.0     0.0           1.0       2.02   0             0            relative    0
+
+# Force field parameters
+Kr  Kr  lennard-jones  166.4  3.636
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Single-site spherical model
+# - Non-polar, no partial charges
+# - Used in gas separation and adsorption studies

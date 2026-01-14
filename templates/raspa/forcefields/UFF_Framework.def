@@ -1,0 +1,25 @@
+# UFF Force Field - Framework Atoms
+
+# Universal Force Field (UFF) parameters for common zeolite framework atoms
+# Reference: Rappé et al., J. Am. Chem. Soc. 1992, 114, 10024-10035
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+Si        yes    Si  Si    4          28.085   0.0     0.0           1.0       1.2    0             0            relative    0
+O         yes    O   O    -2          15.999   0.0     0.0           1.0       0.66   0             0            relative    0
+Al        yes    Al  Al    3          26.982   0.0     0.0           1.0       1.43   0             0            relative    0
+Na        yes    Na  Na    1          22.990   0.0     0.0           1.0       2.27   0             0            relative    0
+Ca        yes    Ca  Ca    2          40.078   0.0     0.0           1.0       2.47   0             0            relative    0
+
+# Force field parameters (UFF values)
+Si  Si  lennard-jones  155.5  3.826
+O   O   lennard-jones   30.2  3.118
+Al  Al  lennard-jones  254.0  4.008
+Na  Na  lennard-jones   15.1  2.658
+Ca  Ca  lennard-jones  114.7  3.028
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - UFF is commonly used for framework atoms in zeolite simulations
+# - Partial charges should be assigned separately (e.g., from CIF or QM calculations)
+# - These are generic values; specific zeolites may use modified parameters

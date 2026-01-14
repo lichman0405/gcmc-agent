@@ -1,0 +1,57 @@
+# DREIDING Force Field - Generic Framework Atoms
+
+# DREIDING force field for generic organic/inorganic structures
+# Reference: Mayo et al., J. Phys. Chem. 1990, 94, 8897-8909
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+
+# Main group elements
+C_R       yes    C   C     0          12.011   0.0     0.0           1.0       0.77   0             0            relative    0
+C_3       yes    C   C     0          12.011   0.0     0.0           1.0       0.77   0             0            relative    0
+H_        yes    H   H     0          1.008    0.0     0.0           1.0       0.37   0             0            relative    0
+O_R       yes    O   O     0          15.999   0.0     0.0           1.0       0.66   0             0            relative    0
+O_3       yes    O   O     0          15.999   0.0     0.0           1.0       0.66   0             0            relative    0
+N_R       yes    N   N     0          14.007   0.0     0.0           1.0       0.70   0             0            relative    0
+N_3       yes    N   N     0          14.007   0.0     0.0           1.0       0.70   0             0            relative    0
+S_3       yes    S   S     0          32.065   0.0     0.0           1.0       1.04   0             0            relative    0
+P_3       yes    P   P     0          30.974   0.0     0.0           1.0       1.07   0             0            relative    0
+
+# Transition metals
+Zn        yes    Zn  Zn    0          65.380   0.0     0.0           1.0       1.39   0             0            relative    0
+Cu        yes    Cu  Cu    0          63.546   0.0     0.0           1.0       1.22   0             0            relative    0
+Fe        yes    Fe  Fe    0          55.845   0.0     0.0           1.0       1.26   0             0            relative    0
+
+# Force field parameters (DREIDING values)
+# C types
+C_R  C_R  lennard-jones  47.9   3.473
+C_3  C_3  lennard-jones  47.9   3.473
+
+# H
+H_   H_   lennard-jones  7.6    2.846
+
+# O types
+O_R  O_R  lennard-jones  48.2   3.033
+O_3  O_3  lennard-jones  48.2   3.033
+
+# N types
+N_R  N_R  lennard-jones  38.9   3.263
+N_3  N_3  lennard-jones  38.9   3.263
+
+# S and P
+S_3  S_3  lennard-jones  173.1  3.590
+P_3  P_3  lennard-jones  161.0  3.695
+
+# Metals
+Zn   Zn   lennard-jones  27.7   2.763
+Cu   Cu   lennard-jones  2.5    3.495
+Fe   Fe   lennard-jones  27.7   2.912
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - _R suffix = aromatic/resonant
+# - _3 suffix = sp3 hybridization
+# - DREIDING uses geometric mean for cross-interactions (differs from Lorentz-Berthelot)
+# - Generic force field suitable for initial MOF modeling
+# - More accurate than UFF for organic linkers
+# - Atom types should match hybridization state

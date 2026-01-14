@@ -1,0 +1,38 @@
+{
+  "source": "Bai et al., J. Phys. Chem. C 2013, 117, 24375-24387",
+  "force_field_name": "TraPPE-zeo",
+  "atoms": [
+    {
+      "atom_type": "Si",
+      "element": "Si",
+      "mass": 28.085,
+      "charge": 0.0,
+      "epsilon": 22.0,
+      "epsilon_unit": "K",
+      "sigma": 2.30,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_z",
+      "element": "O",
+      "mass": 15.999,
+      "charge": 0.0,
+      "epsilon": 53.0,
+      "epsilon_unit": "K",
+      "sigma": 3.30,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_b",
+      "element": "O",
+      "mass": 15.999,
+      "charge": 0.0,
+      "epsilon": 85.7,
+      "epsilon_unit": "K",
+      "sigma": 2.96,
+      "sigma_unit": "Angstrom"
+    }
+  ],
+  "mixing_rules": "Lorentz-Berthelot",
+  "notes": "TraPPE-zeo force field for all-silica zeolites"
+}

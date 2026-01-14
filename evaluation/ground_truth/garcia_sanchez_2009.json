@@ -1,0 +1,28 @@
+{
+  "source": "Garcia-Sanchez et al., J. Phys. Chem. C 2009, 113, 8814-8820",
+  "force_field_name": "TraPPE",
+  "atoms": [
+    {
+      "atom_type": "C_co2",
+      "element": "C",
+      "mass": 12.011,
+      "charge": 0.70,
+      "epsilon": 27.0,
+      "epsilon_unit": "K",
+      "sigma": 2.80,
+      "sigma_unit": "Angstrom"
+    },
+    {
+      "atom_type": "O_co2",
+      "element": "O",
+      "mass": 15.999,
+      "charge": -0.35,
+      "epsilon": 79.0,
+      "epsilon_unit": "K",
+      "sigma": 3.05,
+      "sigma_unit": "Angstrom"
+    }
+  ],
+  "mixing_rules": "Lorentz-Berthelot",
+  "notes": "TraPPE force field for CO2 in zeolites"
+}

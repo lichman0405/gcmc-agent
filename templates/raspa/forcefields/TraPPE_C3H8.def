@@ -1,0 +1,22 @@
+# TraPPE Force Field - C3H8
+
+# TraPPE Propane (United Atom)
+# Reference: Martin & Siepmann, J. Phys. Chem. B 1998, 102, 2569-2577
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+CH3_prp   yes    C   C     0          15.035   0.0     0.0           1.0       0.97   0             0            relative    0
+CH2_prp   yes    C   C     0          14.027   0.0     0.0           1.0       0.91   0             0            relative    0
+
+# Force field parameters
+CH3_prp  CH3_prp  lennard-jones  98.0  3.75
+CH2_prp  CH2_prp  lennard-jones  46.0  3.95
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - United atom model
+# - Three-site model: CH3-CH2-CH3
+# - C-C bond length = 1.540 Å (flexible)
+# - C-C-C angle = 114° (flexible)
+# - Non-polar, no partial charges
+# - Important for LPG and natural gas processing

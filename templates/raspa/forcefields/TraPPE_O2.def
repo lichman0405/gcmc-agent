@@ -1,0 +1,17 @@
+# TraPPE Force Field - O2
+
+# TraPPE Oxygen  
+# Reference: Potoff & Siepmann, AIChE J. 2001, 47, 1676-1682
+
+# Pseudo atoms definition
+# type    print  as  chem  oxidation  mass     charge  polarization  B-factor  radii  connectivity  anisotropic  aniso-type  tinker-type
+O_o2      yes    O   O     0          15.999   0.0     0.0           1.0       0.66   0             0            relative    0
+
+# Force field parameters
+O_o2  O_o2  lennard-jones  49.0  3.02
+
+# Notes:
+# - Units: epsilon in K, sigma in Angstrom
+# - Two-site model (no COM)
+# - O-O bond length = 1.208 Å
+# - Non-polar, no partial charges

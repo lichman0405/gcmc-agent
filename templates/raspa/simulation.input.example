@@ -1,0 +1,22 @@
+SimulationType                MonteCarlo
+NumberOfCycles                50000
+NumberOfInitializationCycles  10000
+PrintEvery                    1000
+RestartFile                   no
+
+Forcefield                    Local
+CutOff                        12.0
+
+Framework 0
+FrameworkName {structure_name}
+UnitCells {unit_cells}
+ExternalTemperature {temperature}
+ExternalPressure {pressure}
+
+Component 0 MoleculeName              {adsorbate}
+            MoleculeDefinition        Local
+            TranslationProbability    1.0
+            RotationProbability       1.0
+            ReinsertionProbability    1.0
+            SwapProbability           1.0
+            CreateNumberOfMolecules   0

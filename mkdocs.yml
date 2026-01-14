@@ -1,0 +1,84 @@
+site_name: GCMC-Agent Documentation
+site_description: Multi-Agent LLM Framework for Fully Automated Molecular Simulations
+site_author: Shibo Li
+repo_url: https://github.com/lichman0405/gcmc-agent
+repo_name: lichman0405/gcmc-agent
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+      - Configuration: getting-started/configuration.md
+  - User Guide:
+      - Architecture Overview: user-guide/architecture.md
+      - Research Team: user-guide/research-team.md
+      - Setup Team: user-guide/setup-team.md
+      - End-to-End Workflow: user-guide/end-to-end.md
+      - RASPA Integration: user-guide/raspa-integration.md
+  - API Reference:
+      - GlobalSupervisor: api/global-supervisor.md
+      - Agents: api/agents.md
+      - Tools: api/tools.md
+  - Evaluation:
+      - Paper Reproduction: evaluation/reproduction.md
+      - Functional Gap Analysis: evaluation/functional-gap-analysis.md
+  - Development:
+      - Contributing: development/contributing.md
+  - About:
+      - License: about/license.md
+      - Changelog: about/changelog.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - autorefs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lichman0405/gcmc-agent
+  version:
+    provider: mike
