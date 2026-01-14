@@ -343,7 +343,5 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ## Additional Resources
 
-- [Testing Guide](testing.md)
-- [Code Style Guide](code-style.md)
 - [Architecture Documentation](../user-guide/architecture.md)
-- [Main Contributing Guide](../../CONTRIBUTING.md)
+- [API Reference](../api/agents.md)
